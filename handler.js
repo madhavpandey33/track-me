@@ -1,6 +1,14 @@
 'use strict';
 
+const logger = require('./src/models/logger');
+const handerl1 = require('./hander1');
+
 module.exports.registerTracking = async (event, context) => {
+
+  logger.log('App is starting up.');
+
+  handerl1.printMessage();
+  console.log(logger.getCount());
   return {
     statusCode: 200,
     body: JSON.stringify({
