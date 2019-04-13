@@ -1,5 +1,5 @@
 # TRACK-ME
-## Responsible for registering track-me user requests for their package
+## Used by user who wants to track and get notified about their package
 
 ## Pre-requisites:
 * Node v8 and above
